@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(204, 205, 207);
+}
+
+.container{
+    max-width: 100vw;
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.barras{
+    display: flex;
+    flex-direction: row;
+}
+.barra{
+    width: 15px;
+    background-color: grey;
+    margin: 0 2px;
+    transition: height 0.5s ease-in-out;
+}
+
+.botoes > button{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(104, 101, 134);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(193, 199, 199);
+}
+select {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(104, 101, 134);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    
+}
+
